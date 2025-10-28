@@ -1,5 +1,32 @@
-# Vue 3 + TypeScript + Vite
+# 한가위(추석) 인사 페이지
+배포 링크: https://dearonfox.github.io/vue-static-page/
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## 프로젝트 소개
+이 프로젝트는 "추석(한가위) 인사"를 주제로 한 단일 랜딩 페이지입니다.  
+가족과 풍요, 감사의 의미를 전하는 추석 분위기를 기본 텍스트만으로 표현하고,  
+간단한 섹션(인사 / 한가위 설명 / 명절 인사 메시지)을 Vue + Vite 환경에서 구성했습니다.
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+## 페이지 구성
+- **메인 인사 영역 (Hero)**
+    - "풍성한 한가위 보내세요"라는 메인 카피
+    - 연휴 인사 한 줄 메시지
+
+- **한가위란? 섹션**
+    - 추석(한가위)이 어떤 날인지 짧게 설명
+    - 가족이 모여 감사와 안부를 나누는 의미 강조
+
+- **명절 덕담 섹션**
+    - "보름달처럼 마음도 꽉 찬 연휴 되세요" 등 축하 문구
+    - 휴식, 행복 같은 포인트 메시지
+
+- **푸터**
+    - 제출 연도 / 프로젝트용 마크
+
+이미지는 사용하지 않고 텍스트와 스타일(CSS gradient, box-shadow 등)만으로 명절 느낌을 냅니다.
+
+## 기술 스택
+- 프레임워크: Vue 3 (+ `<script setup>` 문법)
+- 번들러/개발서버: Vite
+- 언어: TypeScript
+- 스타일: 컴포넌트 단위 `<style scoped>` 내부에서 직접 작성한 CSS
+
